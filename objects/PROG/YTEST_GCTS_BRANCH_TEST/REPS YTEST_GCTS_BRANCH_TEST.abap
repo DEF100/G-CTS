@@ -19,13 +19,13 @@ PERFORM result_sub USING x
                          y
                    CHANGING res.
 
-*PERFORM result_mul USING x
-*                         y
-*                   CHANGING res.
-*
-*PERFORM result_div USING x
-*                         y
-*                   CHANGING res.
+PERFORM result_mul USING x
+                         y
+                   CHANGING res.
+
+PERFORM result_div USING x
+                         y
+                   CHANGING res.
 
 WRITE: res.
 
