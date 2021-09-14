@@ -16,6 +16,10 @@ PERFORM result_add USING x
                          y
                    CHANGING res.
 
+PERFORM result_sub USING x
+                         y
+                   CHANGING res.
+
 WRITE: res.
 
 INCLUDE ytest_gcts_5_f01.
